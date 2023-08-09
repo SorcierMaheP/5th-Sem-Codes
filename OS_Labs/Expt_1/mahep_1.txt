@@ -1,0 +1,227 @@
+Script started on 2023-08-02 11:40:57+0530
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Comp/TE/OS/Experom[K[Kie[Kments
+softcomputing@softcomputing:~/211105032$ tree
+
+Command 'tree' not found, but can be installed with:
+
+sudo snap install tree  # version 1.8.0+pkg-3fd6, or
+sudo apt  install tree
+
+See 'snap info tree' for additional versions.
+
+softcomputing@softcomputing:~/211105032$ sudo apt install tree
+[sudo] password for softcomputing: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  account-plugin-facebook account-plugin-flickr account-plugin-google
+  app-install-data emacs24-bin-common emacs24-common emacs24-common-non-dfsg
+  emacs24-el espeak-data ethtool evolution-data-server-online-accounts
+  gconf-service gconf-service-backend gconf2 gconf2-common hardening-includes
+  hwdata ipython-qtconsole libaccount-plugin-1.0-0
+  libaccount-plugin-generic-oauth libaccount-plugin-google libaccounts-qt5-1
+  libamd2.4.1 libandroid-properties1 libappstream3 libbabeltrace-ctf1
+  libbind9-140 libblas-common libboost-date-time1.58.0
+  libboost-filesystem1.58.0 libboost-iostreams1.58.0 libboost-system1.58.0
+  libcamd2.4.1 libcamel-1.2-54 libcapnp-0.5.3 libcapnp-0.6.1 libccolamd2.9.1
+  libcdio-cdda1 libcdio-paranoia1 libcdio13 libcgmanager0 libcholmod3.0.6
+  libcolamd2.9.1 libcxsparse3.1.4 libdata-alias-perl libdirectfb-1.2-9
+  libdns162 libebook-1.2-16 libedataserver-1.2-21 libedataserverui-1.2-1
+  libespeak1 libfcitx-gclient0 libfwupd1 libgconf-2-4 libgcr-3-common libgdbm3
+  libgfortran3 libgl2ps0 libglade2-0 libglew1.13 libglpk36 libgmime-2.6-0
+  libgnome-desktop-3-12 libgom-1.0-common libgrilo-0.2-1 libgtkspell3-3-0
+  libgtop-2.0-10 libgweather-3-6 libhardware2 libhdf5-10 libhud2
+  libhunspell-1.3-0 libhybris libhybris-common1 libical1a libisccfg140
+  libjs-excanvas liblircclient0 libllvm6.0 liblouisutdml6 liblwres141
+  libmedia1 libmirclient9 libmircommon7 libmircore1 libmpfr4 liboctave3
+  liborcus-0.10-0v5 libp11-kit-gnome-keyring libpackagekit-glib2-16
+  libprotobuf-lite9v5 libprotobuf9v5 libpython3.5-dev libqscintilla2-12v5
+  libqscintilla2-l10n libqt4-opengl libqt5feedback5 libqt5organizer5
+  libqt5quicktest5 libqtwebkit4 libquvi-scripts libquvi7 libreoffice-gtk
+  libreoffice-gtk2 librhythmbox-core9 libsignon-extension1
+  libsignon-plugins-common1 libsignon-qt5-1 libsodium18
+  libsuitesparseconfig4.4.6 libtxc-dxtn-s2tc0 libumfpack5.7.1
+  libunity-action-qt1 libvpx3 libwayland-egl1-mesa libwebp5 libwebpdemux1
+  libwebpmux1 libwebrtc-audio-processing-0 libwxbase2.8-0 libwxgtk2.8-0
+  libx86-1 libxapian22v5 openjdk-8-jdk openjdk-8-jdk-headless oxideqt-codecs
+  pep8 plainbox-provider-checkbox plainbox-provider-resource-generic
+  plainbox-secure-policy pm-utils pycodestyle pyotherside python-cairo
+  python-glade2 python-gobject-2 python-gtk2 python-imaging python-spyderlib
+  python-spyderlib-doc python3-checkbox-support python3-guacamole
+  python3-jinja2 python3-padme python3-pep8 python3-plainbox python3-pyasn1
+  python3-pycodestyle python3-pycurl python3-pyparsing python3-xlsxwriter
+  python3.5-dev qml-module-io-thp-pyotherside
+  qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
+  qml-module-qtfeedback qml-module-qtgraphicaleffects
+  qml-module-qtquick-layouts qml-module-qtquick-window2 qml-module-qtquick2
+  qml-module-qttest qml-module-qtwebkit qml-module-ubuntu-onlineaccounts
+  qml-module-ubuntu-performancemetrics qmlscene qtdeclarative5-accounts-plugin
+  qtdeclarative5-dev-tools qtdeclarative5-qtquick2-plugin
+  qtdeclarative5-test-plugin qtdeclarative5-unity-action-plugin rename
+  signon-keyring-extension signon-plugin-oauth2 signon-plugin-password
+  signon-ui signon-ui-service signon-ui-x11 signond snapd-login-service
+  suru-icon-theme tcpd ubuntu-mobile-icons ubuntu-ui-toolkit-theme
+  unity-control-center-signon unity-scope-gdrive vbetool x11proto-dri2-dev
+  x11proto-gl-dev
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Need to get 40.7 kB of archives.
+After this operation, 105 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 tree amd64 1.7.0-5 [40.7 kB]
+[33m19% [1 tree 9,855 B/40.7 kB 24%][0m[33m                                100% [Working][0m              Fetched 40.7 kB in 1s (46.5 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package tree.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 238843 files and directories currently installed.)
+Preparing to unpack .../tree_1.7.0-5_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking tree (1.7.0-5) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Setting up tree (1.7.0-5) ...
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;24r8[1A[Jsoftcomputing@softcomputing:~/211105032$ tree
+.
+├── GEC
+│   └── Comp
+│       └── TE
+│           └── OS
+│               └── Experiments
+└── mahep_1.txt
+
+5 directories, 1 file
+softcomputing@softcomputing:~/211105032$ treesudo apt install treetree[Kmkdir -p GEC/Comp/TE/OS/Experiments[22P--fix-missingmkdir -p GEC/Comp/TE/OS/Experiments[K[K[K[K[K[K[K[K[K[K[K[K/Assignments
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Comp/TE/OS/Assignments[K[K[K[K[K[K[K[K[K[K[K[K[K[KDBMS
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Comp/TE/DBMS[K[K[K[KAI
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Comp/TE/AI[K[K[K[K[KSE
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Comp/SE[K[KBE
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Comp/BE[K[K[K[K[K[K[KIT
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/IT[K[KCivil/SE
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Civil/SE[K[KTE
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Civil/TE[K[KBE
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Civil/BE[Kmkdir -p GEC/Civil/BE[K[K[K[K[K[K[K[KME[Kech
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/Mech[K[K[K[KETC
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/ETC[K[KNE/Po[Kroject
+softcomputing@softcomputing:~/211105032$ mkdir -p GEC/ENE/Project[K[K[K[K[K[K[KInternship
+softcomputing@softcomputing:~/211105032$ tree
+.
+├── GEC
+│   ├── Civil
+│   │   ├── BE
+│   │   ├── SE
+│   │   └── TE
+│   ├── Comp
+│   │   ├── BE
+│   │   ├── SE
+│   │   └── TE
+│   │       ├── AI
+│   │       ├── DBMS
+│   │       └── OS
+│   │           ├── Assignments
+│   │           └── Experiments
+│   ├── ENE
+│   │   ├── Internship
+│   │   └── Project
+│   ├── ETC
+│   ├── IT
+│   └── Mech
+└── mahep_1.txt
+
+20 directories, 1 file
+softcomputing@softcomputing:~/211105032$ [Ksoftcomputing@softcomputing:~/211105032$ cd GEC/Comp/TE/OS/Experiments/
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ touch A B C[K[K[K[K[KA.txt B.txt C.txt
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ ls
+A.txt  B.txt  C.txt
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ cd GEC/ENE/Proje[K[K[K[K[K[K/Project
+bash: cd: GEC/ENE/Project: No such file or directory
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ cd GEC/ENE/Project2GEC/ENE/Project1GEC/ENE/Project1GEC/ENE/Project1GEC/ENE/Project0GEC/ENE/Project5GEC/ENE/Project0GEC/ENE/Project3GEC/ENE/Project2GEC/ENE/Project[C~211105032GEC/ENE/Project/211105032GEC/ENE/Project
+bash: cd: /home/softcomputing/211105032GEC/ENE/Project: No such file or directory
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ cd ~/211105032GEC/ENE/Project/GEC/ENE/Project
+softcomputing@softcomputing:~/211105032/GEC/ENE/Project$ m[Kto[K[Kcc[Kat > E.txt
+Hello
+softcomputing@softcomputing:~/211105032/GEC/ENE/Project$ cat > E.txt[K[K[K[K[KF.txt
+Test
+softcomputing@softcomputing:~/211105032/GEC/ENE/Project$ cat > F.txtE.txtd ~/211105032/GEC/ENE/Project[C[C[C[C[C[C[C[C[C[C[C[19Pat > E.txtF.txt[Kcd ../Internship/
+softcomputing@softcomputing:~/211105032/GEC/ENE/Internship$ cat >G[K G.txt
+Hi te   
+softcomputing@softcomputing:~/211105032/GEC/ENE/Internship$ cat > G.txt[C> G.txt
+Appn ended text
+softcomputing@softcomputing:~/211105032/GEC/ENE/Internship$ cat G.txt
+Hi
+Appended text
+softcomputing@softcomputing:~/211105032/GEC/ENE/Internship$ cd ~/211105032/
+softcomputing@softcomputing:~/211105032$ tree
+.
+├── GEC
+│   ├── Civil
+│   │   ├── BE
+│   │   ├── SE
+│   │   └── TE
+│   ├── Comp
+│   │   ├── BE
+│   │   ├── SE
+│   │   └── TE
+│   │       ├── AI
+│   │       ├── DBMS
+│   │       └── OS
+│   │           ├── Assignments
+│   │           └── Experiments
+│   │               ├── A.txt
+│   │               ├── B.txt
+│   │               └── C.txt
+│   ├── ENE
+│   │   ├── Internship
+│   │   │   └── G.txt
+│   │   └── Project
+│   │       ├── E.txt
+│   │       └── F.txt
+│   ├── ETC
+│   ├── IT
+│   └── Mech
+└── mahep_1.txt
+
+20 directories, 7 files
+softcomputing@softcomputing:~/211105032$ ls -lah
+total 20K
+drwxrwxr-x  3 softcomputing softcomputing 4.0K Aug  2 11:42 .
+drwxr-xr-x 38 softcomputing softcomputing 4.0K Aug  2 11:36 ..
+drwxrwxr-x  8 softcomputing softcomputing 4.0K Aug  2 11:45 GEC
+-rw-rw-r--  1 softcomputing softcomputing 8.0K Aug  2 11:45 mahep_1.txt
+softcomputing@softcomputing:~/211105032$ clear
+[3J[H[2Jsoftcomputing@softcomputing:~/211105032$ exit
+
+Script done on 2023-08-02 12:02:13+0530
+Script started on 2023-08-02 12:16:14+0530
+softcomputing@softcomputing:~/211105032$ cd Comp/R[KTE/DBMS/ExperimentsGComp/TE/DBMS/ExperimentsEComp/TE/DBMS/Experiments[CComp/TE/DBMS/Experiments/Comp/TE/DBMS/Experiments[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: cd: GEC/Comp/TE/DBMS/Experiments: No such file or directory
+softcomputing@softcomputing:~/211105032$ cd GEC/Comp/TE/DBMS/Experiments[K[K[K[K[K[K[K[K[K[K[KExp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/Comp/[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on 2023-08-02 12:18:19+0530
+Script started on 2023-08-02 12:18:42+0530
+softcomputing@softcomputing:~/211105032$ cd GEC/Comp/TE/DBMS/Experiments[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KE/OS/Experiments/
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ ls -lah
+total 8.0K
+drwxrwxr-x 2 softcomputing softcomputing 4.0K Aug  2 11:47 .
+drwxrwxr-x 4 softcomputing softcomputing 4.0K Aug  2 11:43 ..
+-rwxrw-r-- 1 softcomputing softcomputing    0 Aug  2 11:47 A.txt
+----rwx--- 1 softcomputing softcomputing    0 Aug  2 11:47 B.txt
+-rw-rw-r-- 1 softcomputing softcomputing    0 Aug  2 11:47 C.txt
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ chmod u-x A.txt 
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ chmod u-x A.txt [9Pls -lah
+total 8.0K
+drwxrwxr-x 2 softcomputing softcomputing 4.0K Aug  2 11:47 .
+drwxrwxr-x 4 softcomputing softcomputing 4.0K Aug  2 11:43 ..
+-rw-rw-r-- 1 softcomputing softcomputing    0 Aug  2 11:47 A.txt
+----rwx--- 1 softcomputing softcomputing    0 Aug  2 11:47 B.txt
+-rw-rw-r-- 1 softcomputing softcomputing    0 Aug  2 11:47 C.txt
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ ls -lah[Kchmod 000 B.txt[K[K[K[K[KC.txt
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ ls -lah
+total 8.0K
+drwxrwxr-x 2 softcomputing softcomputing 4.0K Aug  2 11:47 .
+drwxrwxr-x 4 softcomputing softcomputing 4.0K Aug  2 11:43 ..
+-rw-rw-r-- 1 softcomputing softcomputing    0 Aug  2 11:47 A.txt
+----rwx--- 1 softcomputing softcomputing    0 Aug  2 11:47 B.txt
+---------- 1 softcomputing softcomputing    0 Aug  2 11:47 C.txt
+softcomputing@softcomputing:~/211105032/GEC/Comp/TE/OS/Experiments$ exit
+
+Script done on 2023-08-02 12:20:18+0530
