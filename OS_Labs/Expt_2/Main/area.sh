@@ -5,8 +5,8 @@ case $choice in
 	1)
 		echo "Enter radius of circle"
 		read r
-		PI=3
-		ans=$(($PI*$r*$r))
+		PI=3.14159
+		ans=$(echo "scale=3;$PI*$r*$r"|bc )
 		echo "$ans"
 		;;
 	2)

@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "cstring": "cpp",
+        "iomanip": "cpp"
+    }
+}
