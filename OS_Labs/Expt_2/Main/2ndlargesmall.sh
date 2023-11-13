@@ -22,9 +22,9 @@ for((i=0;i<${#num};i++))
 				sec_small=${num:i:1}
 			fi
 	done
-#if [ $sec_large -eq -1 ] || [ $sec_small -eq 10 ]; then
-#	echo "No second largest or second smallest digits available."
-#else
+if [ $sec_large -eq -1 ] || [ $sec_small -eq 10 ]; then
+	echo "No second largest or second smallest digits available."
+else
 	echo -e "Second smallest:$sec_small\nSecond largest:$sec_large"
-#fi
+fi
 	
